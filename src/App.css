@@ -15,14 +15,15 @@ section {
 
 .text-1 {
   width: 640px;
-  margin: 60px auto 0;
-  font-weight: 700;
+  margin: 10px auto 0;
+  font-weight: 900;
   line-height: 1.2;
   font-size: 2.25rem;
   word-wrap: break-word;
   position: relative;
   font-family: Roboto,sans-serif;
   text-align: center;
+  color: #cb363b;
 }
 
 .text-2 {
@@ -32,37 +33,10 @@ section {
   font-weight: 400;
   word-wrap: break-word;
   position: relative;
-  text-align: center;
+  text-align: left;
   border: 2px solid #b9c0ba;
   border-radius: 5px;
-}
-
-.btn-1 {
-  margin: 30px auto 60px;
-  background-color: #4d6eaa;
-  color: #ffffff;
-  display: table;
-  cursor: pointer;
-  font-size: inherit;
-  font-weight: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  text-transform: inherit;
-  text-decoration: none;
-  border: 0 none transparent;
-  outline-width: 0;
-  font-style: initial;
-  white-space: nowrap;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  vertical-align: middle;
-  text-align: center;
-  padding: 10px 30px;
-  border-radius: 0;
-  align-self: flex-start;
+  padding: 5px;
 }
 
 .lds-roller {
@@ -82,7 +56,7 @@ section {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #5357be;
+  background: #cb363b;
   margin: -4px 0 0 -4px;
 }
 .lds-roller div:nth-child(1) {
@@ -162,9 +136,11 @@ section {
 }
 
 .pagination-button {
-  background-color: #4d6eaa;
+  background: linear-gradient(89.9deg, #ef484e, #cb363b);
   color: white;
-  margin: 10px 16px 20px 0px;
+  margin: 10px 16px 20px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .pagination-disable {
